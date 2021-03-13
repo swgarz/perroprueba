@@ -5,6 +5,12 @@
 }
 body{
     background-image: url(./img/donperromezcal1440x900.png);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    background-image: url(images/overlay.png), linear-gradient(
+60deg
+, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url(./img/donperromezcal1440x900.png);
+    
 }
 .container{
     display: grid;
@@ -16,4 +22,24 @@ body{
     grid-column: 2 / 10;
     background: #fafafa;
     opacity: .98;
+    text-align: center;
+    margin: 5px 0 0 0;
+    padding: 5px;
+}
+h1{
+    font-size: 1.85em;
+    letter-spacing: 0.22em;
+    margin: 0 0 0.525em 0;
+    color: #313f47;
+    line-height: 1.5;
+}
+header span img{
+    border-radius: 50%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+p{
+    margin: 0 0 1.5em 0;
+    padding: 5px;
+    margin-bottom: 13px;
 }
